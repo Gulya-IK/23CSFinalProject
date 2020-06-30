@@ -1,0 +1,36 @@
+body {
+  background: #A5A7AC;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+#question1 {
+  width: 80%;
+  height: 35%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.question {
+  text-align: center;
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+#q1yes #q1no {
+  display: 1;
+}
+
+
+footer {
+  color: white;
+}
